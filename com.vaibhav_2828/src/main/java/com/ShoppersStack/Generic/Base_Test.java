@@ -58,11 +58,10 @@ public class Base_Test {
 	public void beforeClass() throws IOException {
 		System.out.println("BeforeClass");
 
-		// String browser=FrameWorkConstants.chromeValue;
-		// String url=file.readDataFromPropertyFile("url");
+		 String browser=FrameWorkConstants.chromeValue;
+		 String url=file.readDataFromPropertyFile("url");
 
-		String browser = System.getProperty("browser");
-		String url = System.getProperty("url");
+//		String browser = System.getProperty("browser");
 
 		if (browser.contains("chrome")) {
 			driver = new ChromeDriver();
