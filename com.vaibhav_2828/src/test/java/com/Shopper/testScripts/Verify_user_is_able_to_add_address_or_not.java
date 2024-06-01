@@ -12,7 +12,7 @@ import com.ShoppersStack.Pom.MyProfile_Page;
 import com.Shoppersstack_GenericUtility.ListenersUtility;
 
 @Listeners(ListenersUtility.class)
-public class Verify_user_is_able_to_add_address_or_not_Test extends Base_Test {
+public class Verify_user_is_able_to_add_address_or_not extends Base_Test {
 	
 	@Test
 	public void addAddress() throws IOException, InterruptedException {

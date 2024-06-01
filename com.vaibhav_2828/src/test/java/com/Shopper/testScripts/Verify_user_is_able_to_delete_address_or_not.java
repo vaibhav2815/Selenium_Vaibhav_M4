@@ -8,7 +8,7 @@ import com.ShoppersStack.Generic.Base_Test;
 import com.ShoppersStack.Pom.MyAddress_Page;
 import com.ShoppersStack.Pom.MyProfile_Page;
 
-public class Verify_user_is_able_to_delete_address_or_not_Test extends  Base_Test {
+public class Verify_user_is_able_to_delete_address_or_not extends  Base_Test {
 	
 	@Test
 	public void delAddress() throws IOException, InterruptedException {
